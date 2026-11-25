@@ -1,0 +1,11 @@
+sku,title,ebay_item_id,ebay_price,supplier,supplier_url,supplier_price,supplier_shipping,stock_status,min_margin_percent,check_interval_days,notes,date_added,last_checked
+LED-STRIP-5M,RGB LED Strip Lights 5m with Remote,155512345678,24.99,Amazon,https://example.com/supplier/led-strip-5m,11.50,2.00,in_stock,15,7,,2026-11-15,2026-11-15
+EARBUDS-PRO,Wireless Earbuds Pro with Charging Case,155512345679,19.99,AliExpress,https://example.com/supplier/earbuds-pro,8.25,1.50,in_stock,15,7,,2026-11-15,2026-11-15
+PHONE-CASE-IPH15,Clear Phone Case for iPhone 15,155512345680,12.99,AliExpress,https://example.com/supplier/phone-case-iph15,3.80,1.00,in_stock,15,7,,2026-11-15,2026-11-15
+KITCHEN-CHOPPER,Manual Vegetable Chopper 500ml,155512345681,29.99,Walmart,https://example.com/supplier/kitchen-chopper,14.00,3.00,in_stock,15,7,,2026-11-15,2026-11-15
+BT-SPEAKER-MINI,Mini Bluetooth Speaker Waterproof,155512345682,21.99,Amazon,https://example.com/supplier/bt-speaker-mini,9.75,2.50,in_stock,15,7,,2026-11-15,2026-11-15
+MOUSE-WIRELESS,Wireless Mouse Silent Click 2.4GHz,155512345683,15.99,AliExpress,https://example.com/supplier/mouse-wireless,6.40,1.25,in_stock,15,7,,2026-11-15,2026-11-15
+YOGA-MAT-PRO,Non-Slip Yoga Mat 6mm with Carry Strap,155512345684,27.99,Walmart,https://example.com/supplier/yoga-mat-pro,12.00,4.00,in_stock,15,7,,2026-11-15,2026-11-15
+USB-C-HUB-7IN1,USB-C Hub 7-in-1 with 4K HDMI,155512345685,34.99,Amazon,https://example.com/supplier/usb-c-hub-7in1,16.50,2.75,in_stock,15,7,,2026-11-15,2026-11-15
+PET-HAIR-ROLLER,Reusable Pet Hair Remover Roller,155512345686,9.99,eBay Wholesale,https://example.com/supplier/pet-hair-roller,2.90,0.99,in_stock,15,7,,2026-11-15,2026-11-15
+DESK-LAMP-LED,LED Desk Lamp with USB Charging Port,155512345687,22.99,Amazon,https://example.com/supplier/desk-lamp-led,10.25,2.25,in_stock,15,7,,2026-11-15,2026-11-15

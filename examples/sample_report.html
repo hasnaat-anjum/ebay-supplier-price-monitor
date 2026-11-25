@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>eBay Supplier Price Monitor — report 2026-11-25</title>
+<style>
+body { font-family: Arial, Helvetica, sans-serif; margin: 2em; color: #222; }
+h1 { color: #0b3d91; } h2 { color: #0b3d91; margin-top: 1.5em; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #ccc; padding: 6px 8px; text-align: left; font-size: 14px; }
+th { background: #0b3d91; color: #fff; }
+tr.risk td { background: #fdecea; }
+li.critical { color: #b00020; } li.warning { color: #8a6d00; } li.info { color: #444; }
+footer { margin-top: 2em; color: #666; font-size: 12px; }
+</style>
+</head>
+<body>
+<h1>eBay Supplier Price Monitor</h1>
+<p>Report date: 2026-11-25 &middot; Tracked items: 10 &middot;
+Items at risk: 9 &middot; Alerts: 12</p>
+
+<h2>Tracked items</h2>
+<table>
+<tr><th>SKU</th><th>Title</th><th>Supplier</th><th>eBay price</th>
+<th>Supplier price</th><th>Shipping</th><th>Stock</th><th>Margin</th>
+<th>Profit/unit</th><th>Last checked</th></tr>
+<tr class="risk"><td>BT-SPEAKER-MINI</td><td>Mini Bluetooth Speaker Waterproof</td><td>Amazon</td><td>$21.99</td><td>$9.75</td><td>$2.50</td><td>in_stock</td><td>29.7%</td><td>$6.53</td><td>2026-11-15</td></tr><tr class="risk"><td>DESK-LAMP-LED</td><td>LED Desk Lamp with USB Charging Port</td><td>Amazon</td><td>$22.99</td><td>$10.25</td><td>$2.25</td><td>in_stock</td><td>31.1%</td><td>$7.14</td><td>2026-11-15</td></tr><tr class="risk"><td>EARBUDS-PRO</td><td>Wireless Earbuds Pro with Charging Case</td><td>AliExpress</td><td>$19.99</td><td>$8.25</td><td>$1.50</td><td>out_of_stock</td><td>36.5%</td><td>$7.29</td><td>2026-11-25</td></tr><tr class="risk"><td>KITCHEN-CHOPPER</td><td>Manual Vegetable Chopper 500ml</td><td>Walmart</td><td>$29.99</td><td>$19.99</td><td>$3.00</td><td>in_stock</td><td>9.1%</td><td>$2.73</td><td>2026-11-25</td></tr><tr class="risk"><td>LED-STRIP-5M</td><td>RGB LED Strip Lights 5m with Remote</td><td>Amazon</td><td>$24.99</td><td>$16.50</td><td>$2.00</td><td>in_stock</td><td>11.5%</td><td>$2.88</td><td>2026-11-25</td></tr><tr class="risk"><td>MOUSE-WIRELESS</td><td>Wireless Mouse Silent Click 2.4GHz</td><td>AliExpress</td><td>$15.99</td><td>$6.40</td><td>$1.25</td><td>in_stock</td><td>37.0%</td><td>$5.92</td><td>2026-11-15</td></tr><tr class="risk"><td>PET-HAIR-ROLLER</td><td>Reusable Pet Hair Remover Roller</td><td>eBay Wholesale</td><td>$9.99</td><td>$2.90</td><td>$0.99</td><td>in_stock</td><td>44.8%</td><td>$4.48</td><td>2026-11-15</td></tr><tr class=""><td>PHONE-CASE-IPH15</td><td>Clear Phone Case for iPhone 15</td><td>AliExpress</td><td>$12.99</td><td>$3.20</td><td>$1.00</td><td>in_stock</td><td>52.1%</td><td>$6.77</td><td>2026-11-25</td></tr><tr class="risk"><td>USB-C-HUB-7IN1</td><td>USB-C Hub 7-in-1 with 4K HDMI</td><td>Amazon</td><td>$34.99</td><td>$16.50</td><td>$2.75</td><td>in_stock</td><td>30.9%</td><td>$10.80</td><td>2026-11-15</td></tr><tr class="risk"><td>YOGA-MAT-PRO</td><td>Non-Slip Yoga Mat 6mm with Carry Strap</td><td>Walmart</td><td>$27.99</td><td>$12.00</td><td>$4.00</td><td>in_stock</td><td>28.5%</td><td>$7.98</td><td>2026-11-15</td></tr>
+</table>
+
+<h2>Alerts</h2>
+<ul>
+<li class="critical"><strong>[critical] EARBUDS-PRO</strong> — Wireless Earbuds Pro with Charging Case is OUT OF STOCK at AliExpress.<br><em>Action: Pause listing until restocked</em></li><li class="critical"><strong>[critical] KITCHEN-CHOPPER</strong> — Supplier price for Manual Vegetable Chopper 500ml rose $14.00 -&gt; $19.99 (+42.8%) and wiped out the margin.<br><em>Action: Raise eBay price to $32.46</em></li><li class="critical"><strong>[critical] LED-STRIP-5M</strong> — Supplier price for RGB LED Strip Lights 5m with Remote rose $11.50 -&gt; $16.50 (+43.5%) and wiped out the margin.<br><em>Action: Raise eBay price to $26.21</em></li><li class="warning"><strong>[warning] BT-SPEAKER-MINI</strong> — Mini Bluetooth Speaker Waterproof has not been checked for 10 days (interval is 7 days).<br><em>Action: Re-check supplier</em></li><li class="warning"><strong>[warning] DESK-LAMP-LED</strong> — LED Desk Lamp with USB Charging Port has not been checked for 10 days (interval is 7 days).<br><em>Action: Re-check supplier</em></li><li class="warning"><strong>[warning] KITCHEN-CHOPPER</strong> — Margin on Manual Vegetable Chopper 500ml is 9.1%, below your 15% floor.<br><em>Action: Raise eBay price to $32.46</em></li><li class="warning"><strong>[warning] LED-STRIP-5M</strong> — Margin on RGB LED Strip Lights 5m with Remote is 11.5%, below your 15% floor.<br><em>Action: Raise eBay price to $26.21</em></li><li class="warning"><strong>[warning] MOUSE-WIRELESS</strong> — Wireless Mouse Silent Click 2.4GHz has not been checked for 10 days (interval is 7 days).<br><em>Action: Re-check supplier</em></li><li class="warning"><strong>[warning] PET-HAIR-ROLLER</strong> — Reusable Pet Hair Remover Roller has not been checked for 10 days (interval is 7 days).<br><em>Action: Re-check supplier</em></li><li class="warning"><strong>[warning] USB-C-HUB-7IN1</strong> — USB-C Hub 7-in-1 with 4K HDMI has not been checked for 10 days (interval is 7 days).<br><em>Action: Re-check supplier</em></li><li class="warning"><strong>[warning] YOGA-MAT-PRO</strong> — Non-Slip Yoga Mat 6mm with Carry Strap has not been checked for 10 days (interval is 7 days).<br><em>Action: Re-check supplier</em></li><li class="info"><strong>[info] PHONE-CASE-IPH15</strong> — Supplier price for Clear Phone Case for iPhone 15 dropped $3.80 -&gt; $3.20 (-15.8%).<br><em>Action: Re-check supplier</em></li>
+</ul>
+
+<h2>Supplier scorecard</h2>
+<table>
+<tr><th>Supplier</th><th>Items</th><th>Checks (30d)</th>
+<th>Stock-outs (30d)</th><th>Avg drift</th><th>Reliability</th></tr>
+<tr><td>eBay Wholesale</td><td>1</td><td>1</td><td>0</td><td>+0.0%</td><td>100/100</td></tr><tr><td>Amazon</td><td>4</td><td>5</td><td>0</td><td>+43.5%</td><td>95/100</td></tr><tr><td>Walmart</td><td>2</td><td>3</td><td>0</td><td>+42.8%</td><td>95/100</td></tr><tr><td>AliExpress</td><td>3</td><td>5</td><td>1</td><td>-7.9%</td><td>90/100</td></tr>
+</table>
+
+<footer>Generated by eBay Supplier Price Monitor. Profit-at-risk assumes
+10 sales per month per item.</footer>
+</body>
+</html>

@@ -1,0 +1,6 @@
+sku,supplier_price,stock_status,shipping
+LED-STRIP-5M,16.50,in_stock,2.00
+EARBUDS-PRO,8.25,out_of_stock,1.50
+PHONE-CASE-IPH15,3.20,in_stock,1.00
+KITCHEN-CHOPPER,19.99,in_stock,3.00
+UNKNOWN-SKU-999,5.00,in_stock,1.00

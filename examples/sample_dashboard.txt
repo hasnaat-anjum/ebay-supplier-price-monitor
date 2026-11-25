@@ -1,0 +1,23 @@
+eBay Supplier Price Monitor — dashboard (2026-11-25)
+============================================================
+Tracked items:        10
+Items at risk:        9
+Alerts:               3 critical, 8 warning, 1 info
+Monthly profit at risk: $72.90 (assumes 10 sales/month per item)
+
+Suppliers needing attention:
+  - Amazon: reliability 95/100, 0 stock-out(s) in 30 days, avg drift +43.5%
+  - Walmart: reliability 95/100, 0 stock-out(s) in 30 days, avg drift +42.8%
+  - AliExpress: reliability 90/100, 1 stock-out(s) in 30 days, avg drift -7.9%
+
+Top alerts:
+  [CRITICAL] EARBUDS-PRO: Wireless Earbuds Pro with Charging Case is OUT OF STOCK at AliExpress.
+             -> Pause listing until restocked
+  [CRITICAL] KITCHEN-CHOPPER: Supplier price for Manual Vegetable Chopper 500ml rose $14.00 -> $19.99 (+42.8%) and wiped out the margin.
+             -> Raise eBay price to $32.46
+  [CRITICAL] LED-STRIP-5M: Supplier price for RGB LED Strip Lights 5m with Remote rose $11.50 -> $16.50 (+43.5%) and wiped out the margin.
+             -> Raise eBay price to $26.21
+  [WARNING]  BT-SPEAKER-MINI: Mini Bluetooth Speaker Waterproof has not been checked for 10 days (interval is 7 days).
+             -> Re-check supplier
+  [WARNING]  DESK-LAMP-LED: LED Desk Lamp with USB Charging Port has not been checked for 10 days (interval is 7 days).
+             -> Re-check supplier
